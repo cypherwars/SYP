@@ -1,0 +1,64 @@
+<!--
+You are free to copy and use this sample in accordance with the terms of the
+Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps API Sample</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAuPsJpk3MBtDpJ4G8cqBnjRRaGTYH6UMl8mADNa0YKuWNNa8VNxQCzVBXTx2DYyXGsTOxpWhvIG7Djw" type="text/javascript"></script>
+    <script type="text/javascript">
+
+    // Create a directions object and register a map and DIV to hold the 
+    // resulting computed directions
+    
+    var map;
+    var directionsPanel;
+    var directions;
+    var k,j;
+	
+    function initialize() {
+		k=document.getElementById("p1");
+		j=document.getElementById("p2");
+      map = new GMap2(document.getElementById("map_canvas"));
+	  map.addControl(new GSmallMapControl());
+    map.addControl(new GMapTypeControl());
+     // map.setCenter(new GLatLng(42.351505,-71.094455), 15);
+      directionsPanel = document.getElementById("route");
+      directions = new GDirections(map, directionsPanel);
+	  // alert("from: "+k.value+ " to: "+j.value);
+	// alert("from: "+getQuerystring('fromlat')+" "+getQuerystring('fromlon')+ " to: "+getQuerystring('tolat')+" "+getQuerystring('tolon'));
+      directions.load("from: "+getQuerystring('fromlat')+" "+getQuerystring('fromlon')+ " to: "+getQuerystring('tolat')+" "+getQuerystring('tolon'));
+    }
+    </script>
+    <script type="text/javascript">
+   
+function getQuerystring(key, default_)
+{
+  if (default_==null) default_=""; 
+  key = key.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regex = new RegExp("[\\?&]"+key+"=([^&#]*)");
+  var qs = regex.exec(window.location.href);
+  if(qs == null)
+    return default_;
+  else
+    return qs[1];
+}
+
+</script>
+ <style type="text/css">
+    a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFFF;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#FF00FF;} 
+    </style>
+  </head>
+  <body onload="initialize()" onunload="GUnload()" style="font-family: Arial;border: 0 none;">
+       
+    <div id="map_canvas" style="width: 500px; height: 300px;"></div>
+    <p>
+    <div id="route" style="border; 1px solid black;color: white;"></div></p>
+  </body>
+</html>
