@@ -1,0 +1,3034 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="#CompanyPolicy">
+    <rdfs:domain rdf:resource="#Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#CompanyPolicy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:sameAs rdf:resource="#CompanyPolicy"/>
+    <owl:equivalentProperty rdf:resource="#CompanyPolicy"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#double">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanStore">
+    <hasProduct rdf:resource="#cromaKalyanSamsung Galaxy 5ProductDetail"/>
+    <hasProduct rdf:resource="#cromaKalyanN900ProductDetail"/>
+    <hasLocation rdf:resource="#cromaKalyanLocation"/>
+    <hasTiming rdf:resource="#cromaKalyanTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <StoreName>cromaKalyan</StoreName>
+    <owl:sameAs rdf:resource="#cromaKalyanStore"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ElectronicsStore</hasCategory>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash</hasPaymentMethod>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasContactInformation rdf:resource="#cromaKalyanContactInformation"/>
+    <hasProduct rdf:resource="#cromaKalyanXperia X10ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeBandraStore">
+    <hasTiming rdf:resource="#nikeBandraTimingDetail"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <owl:sameAs rdf:resource="#nikeBandraStore"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#SportsStore</hasCategory>
+    <hasLocation rdf:resource="#nikeBandraLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasContactInformation rdf:resource="#nikeBandraContactInformation"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasProduct rdf:resource="#nikeBandraVictoryRunProductDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasProduct rdf:resource="#nikeBandraJabulaniProductDetail"/>
+    <StoreName>nikeBandra</StoreName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburMeteoraProductDetail">
+    <ProductName>Meteora</ProductName>
+    <ProductDescription>the best selling album ever</ProductDescription>
+    <ProductCategory>Music</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#planetMChemburMeteoraProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#StoreName">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#StoreName"/>
+    <owl:sameAs rdf:resource="#StoreName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#StoreName"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedByte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanDhobi GhatProductDetail">
+    <owl:sameAs rdf:resource="#cinemaxKalyanDhobi GhatProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Movie</ProductCategory>
+    <ProductDescription>an art movie</ProductDescription>
+    <ProductName>Dhobi Ghat</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#DeliveryMethod">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#DeliveryMethod"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#DeliveryMethod"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#DeliveryMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductName">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="#ProductName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#ProductName"/>
+    <owl:equivalentProperty rdf:resource="#ProductName"/>
+    <rdfs:domain rdf:resource="#ProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitThe 3 Mistakes of my LifeProductDetail">
+    <ProductName>The 3 Mistakes of my Life</ProductName>
+    <ProductDescription>story about 3 friends</ProductDescription>
+    <ProductCategory>Book</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordInorbitThe 3 Mistakes of my LifeProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Location">
+    <owl:sameAs rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#Location"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Category">
+    <owl:sameAs rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#Category"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitStore">
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore</hasCategory>
+    <hasProduct rdf:resource="#crosswordInorbitThe 3 Mistakes of my LifeProductDetail"/>
+    <hasContactInformation rdf:resource="#crosswordInorbitContactInformation"/>
+    <hasProduct rdf:resource="#crosswordInorbitTwo StatesProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasLocation rdf:resource="#crosswordInorbitLocation"/>
+    <hasProduct rdf:resource="#crosswordInorbit5 Point SomeoneProductDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash</hasPaymentMethod>
+    <owl:sameAs rdf:resource="#crosswordInorbitStore"/>
+    <hasProduct rdf:resource="#crosswordInorbitOne Night @ the Call CenterProductDetail"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore</hasCategory>
+    <hasTiming rdf:resource="#crosswordInorbitTimingDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <StoreName>crosswordInorbit</StoreName>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeBandraJabulaniProductDetail">
+    <owl:sameAs rdf:resource="#nikeBandraJabulaniProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Sports</ProductCategory>
+    <ProductDescription>Official Football for WC 2011</ProductDescription>
+    <ProductName>Jabulani</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanContactInformation">
+    <owl:sameAs rdf:resource="#cromaKalyanContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@croma.com</EmailId>
+    <PhoneNumber>022-22227171</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburReanimationProductDetail">
+    <ProductName>Reanimation</ProductName>
+    <ProductDescription>Classic Remix of best selling songs </ProductDescription>
+    <ProductCategory>Music</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#planetMChemburReanimationProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BrandName">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#BrandName"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="#BrandName"/>
+    <owl:equivalentProperty rdf:resource="#BrandName"/>
+    <rdfs:domain rdf:resource="#Brand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelLocation">
+    <owl:sameAs rdf:resource="#cinemaxParelLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Lower Parel</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0024811</Latitude>
+    <Longitude>72.8249607</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#disjointWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeBandraLocation">
+    <Longitude>72.8249607</Longitude>
+    <Latitude>19.0024811</Latitude>
+    <State>Maharashtra</State>
+    <City>Bandra</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#nikeBandraLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gMonthDay">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMBandraTimingDetail">
+    <owl:sameAs rdf:resource="#planetMBandraTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>10-6</WeekDayHours>
+    <WeekEndHours>10-8</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BookStore">
+    <rdf:type rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#BookStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanTimingDetail">
+    <owl:sameAs rdf:resource="#cinemaxKalyanTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>9-12,3-6,6.30-9.30</WeekDayHours>
+    <WeekEndHours>9-12,3-6,6.30-9.30,10-1</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasBrand">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="#hasBrand"/>
+    <rdfs:range rdf:resource="#Brand"/>
+    <rdfs:domain rdf:resource="#Company"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#hasBrand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#hasBrand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#SportsStore">
+    <rdf:type rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#SportsStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasLocation">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="#Location"/>
+    <owl:equivalentProperty rdf:resource="#hasLocation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#hasLocation"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#hasLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductCategory">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#ProductCategory"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:equivalentProperty rdf:resource="#ProductCategory"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#ProductCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedShort">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#musicworldNerulTimingDetail">
+    <owl:sameAs rdf:resource="#musicworldNerulTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>10-6</WeekDayHours>
+    <WeekEndHours>10-8</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="#EmailId">
+    <owl:sameAs rdf:resource="#EmailId"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#EmailId"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#EmailId"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiRaptorProductDetail">
+    <owl:sameAs rdf:resource="#nikeVashiRaptorProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Sports</ProductCategory>
+    <ProductDescription>Fiber build professional tennis racket</ProductDescription>
+    <ProductName>Raptor</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#WeekDayHours">
+    <owl:sameAs rdf:resource="#WeekDayHours"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="#WeekDayHours"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#WeekDayHours"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanContactInformation">
+    <owl:sameAs rdf:resource="#landmarkKalyanContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@landmark.com</EmailId>
+    <PhoneNumber>022-44004400</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedInt">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiJabulaniProductDetail">
+    <ProductName>Jabulani</ProductName>
+    <ProductDescription>Official Football for WC 2011</ProductDescription>
+    <ProductCategory>Sports</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#nikeVashiJabulaniProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMBandraLocation">
+    <owl:sameAs rdf:resource="#planetMBandraLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Bandra</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0024811</Latitude>
+    <Longitude>72.8249607</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanStore">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#fameKalyanStore"/>
+    <hasContactInformation rdf:resource="#fameKalyanContactInformation"/>
+    <hasProduct rdf:resource="#fameKalyanDhobi GhatProductDetail"/>
+    <hasTiming rdf:resource="#fameKalyanTimingDetail"/>
+    <hasProduct rdf:resource="#fameKalyanRang De BasantiProductDetail"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <StoreName>fameKalyan</StoreName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasProduct rdf:resource="#fameKalyanDonProductDetail"/>
+    <hasLocation rdf:resource="#fameKalyanLocation"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Theatre</hasCategory>
+    <rdf:type rdf:resource="#StoreDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#intersectionOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CompanyLogo">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="#CompanyLogo"/>
+    <rdfs:subPropertyOf rdf:resource="#CompanyLogo"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#CompanyLogo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelDonProductDetail">
+    <ProductName>Don</ProductName>
+    <ProductDescription>mafia thriller</ProductDescription>
+    <ProductCategory>Movie</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cinemaxParelDonProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#versionInfo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesVashiN900ProductDetail">
+    <ProductName>Nokia E63</ProductName>
+    <ProductDescription>Smartphone by Nokia</ProductDescription>
+    <ProductCategory>Electronic</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesVashiN900ProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Latitude">
+    <owl:sameAs rdf:resource="#Latitude"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="#Latitude"/>
+    <owl:equivalentProperty rdf:resource="#Latitude"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanLagaanProductDetail">
+    <ProductName>Lagaan</ProductName>
+    <ProductDescription>wonderful story of cricket and independence</ProductDescription>
+    <ProductCategory>Movie</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cinemaxKalyanLagaanProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMBandraContactInformation">
+    <owl:sameAs rdf:resource="#planetMBandraContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@planetm.com</EmailId>
+    <PhoneNumber>022-50500000</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitTwo StatesProductDetail">
+    <owl:sameAs rdf:resource="#crosswordInorbitTwo StatesProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Book</ProductCategory>
+    <ProductDescription>story about boy and girl and caste differences</ProductDescription>
+    <ProductName>Two States</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasStore">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#Company"/>
+    <owl:sameAs rdf:resource="#hasStore"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#hasStore"/>
+    <owl:equivalentProperty rdf:resource="#hasStore"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="#StoreDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliSamsung Galaxy 5ProductDetail">
+    <ProductName>Samsung Galaxy 5</ProductName>
+    <ProductDescription>Smartphone by Samsung</ProductDescription>
+    <ProductCategory>Electronic</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cromaDombivliSamsung Galaxy 5ProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesVashiStore">
+    <hasProduct rdf:resource="#vijaysalesVashiN900ProductDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash</hasPaymentMethod>
+    <hasTiming rdf:resource="#vijaysalesVashiTimingDetail"/>
+    <hasLocation rdf:resource="#vijaysalesVashiLocation"/>
+    <hasContactInformation rdf:resource="#vijaysalesVashiContactInformation"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ElectronicsStore</hasCategory>
+    <StoreName>vijaysalesVashi</StoreName>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#vijaysalesVashiStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#long">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbit5 Point SomeoneProductDetail">
+    <owl:sameAs rdf:resource="#crosswordInorbit5 Point SomeoneProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Book</ProductCategory>
+    <ProductDescription>story about IIT students</ProductDescription>
+    <ProductName>5 Point Someone</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasTiming">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="#TmingDetail"/>
+    <owl:sameAs rdf:resource="#hasTiming"/>
+    <rdfs:subPropertyOf rdf:resource="#hasTiming"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#hasTiming"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#musicworldNerulMeteoraProductDetail">
+    <ProductName>Meteora</ProductName>
+    <ProductDescription>the best selling album ever</ProductDescription>
+    <ProductCategory>Music</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#musicworldNerulMeteoraProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Property">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <owl:sameAs rdf:resource=""/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiLocation">
+    <owl:sameAs rdf:resource="#nikeVashiLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Vashi</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0024811</Latitude>
+    <Longitude>72.8249607</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanDa Vinci CodeProductDetail">
+    <owl:sameAs rdf:resource="#landmarkKalyanDa Vinci CodeProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Book</ProductCategory>
+    <ProductDescription>Relevation about Christianity</ProductDescription>
+    <ProductName>Da Vinci Code</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesKalyanStore">
+    <hasProduct rdf:resource="#vijaysalesKalyanN900ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <owl:sameAs rdf:resource="#vijaysalesKalyanStore"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <hasContactInformation rdf:resource="#vijaysalesKalyanContactInformation"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash</hasPaymentMethod>
+    <hasLocation rdf:resource="#vijaysalesKalyanLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <StoreName>vijaysalesKalyan</StoreName>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ElectronicsStore</hasCategory>
+    <hasTiming rdf:resource="#vijaysalesKalyanTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburTimingDetail">
+    <WeekEndHours>10-8</WeekEndHours>
+    <WeekDayHours>10-6</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#planetMChemburTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanRang De BasantiProductDetail">
+    <ProductName>Rang De Basanti</ProductName>
+    <ProductDescription>story against corruption</ProductDescription>
+    <ProductCategory>Movie</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#fameKalyanRang De BasantiProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesVashiContactInformation">
+    <PhoneNumber>022-22223333</PhoneNumber>
+    <EmailId>admin@vijaysales.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesVashiContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliDell InspironProductDetail">
+    <ProductName>Dell Inspiron</ProductName>
+    <ProductDescription>Value for Money Laptops</ProductDescription>
+    <ProductCategory>Electronic</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cromaDombivliDell InspironProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliStore">
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ElectronicsStore</hasCategory>
+    <hasProduct rdf:resource="#cromaDombivliN900ProductDetail"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <owl:sameAs rdf:resource="#cromaDombivliStore"/>
+    <hasProduct rdf:resource="#cromaDombivliDell InspironProductDetail"/>
+    <StoreName>cromaDombivli</StoreName>
+    <hasLocation rdf:resource="#cromaDombivliLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasProduct rdf:resource="#cromaDombivliSamsung Galaxy 5ProductDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash</hasPaymentMethod>
+    <hasProduct rdf:resource="#cromaDombivliCompaq PresarioProductDetail"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasTiming rdf:resource="#cromaDombivliTimingDetail"/>
+    <hasContactInformation rdf:resource="#cromaDombivliContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ContactInformation">
+    <owl:sameAs rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#ContactInformation"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesVashiLocation">
+    <Longitude>72.8249607</Longitude>
+    <Latitude>19.0024811</Latitude>
+    <State>Maharashtra</State>
+    <City>Vashi</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesVashiLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#MusicWorldPvtLtd">
+    <owl:sameAs rdf:resource="#MusicWorldPvtLtd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Company"/>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <CompanyUrl>musicworld.com</CompanyUrl>
+    <CommonName>MusicWorld</CommonName>
+    <CompanyLogo>musicworld.gif</CompanyLogo>
+    <LegalName>MusicWorldPvtLtd</LegalName>
+    <hasStore rdf:resource="#musicworldNerulStore"/>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasCategory">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#hasCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="#Category"/>
+    <owl:equivalentProperty rdf:resource="#hasCategory"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdfs:subPropertyOf rdf:resource="#hasCategory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanLocation">
+    <owl:sameAs rdf:resource="#cinemaxKalyanLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Kalyan</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0176147</Latitude>
+    <Longitude>72.8561644</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelDhobi GhatProductDetail">
+    <owl:sameAs rdf:resource="#cinemaxParelDhobi GhatProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Movie</ProductCategory>
+    <ProductDescription>an art movie</ProductDescription>
+    <ProductName>Dhobi Ghat</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductNumber">
+    <owl:sameAs rdf:resource="#ProductNumber"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#ProductNumber"/>
+    <owl:equivalentProperty rdf:resource="#ProductNumber"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiVictoryRunProductDetail">
+    <owl:sameAs rdf:resource="#nikeVashiVictoryRunProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Sports</ProductCategory>
+    <ProductDescription>exclusive football gear</ProductDescription>
+    <ProductName>VictoryRun</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanTimingDetail">
+    <WeekEndHours>3-6,6.30-9.30,10-1</WeekEndHours>
+    <WeekDayHours>3-6,6.30-9.30</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#fameKalyanTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitTimingDetail">
+    <WeekEndHours>10-8</WeekEndHours>
+    <WeekDayHours>10-6</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordInorbitTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#City">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Location"/>
+    <owl:equivalentProperty rdf:resource="#City"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#City"/>
+    <rdfs:subPropertyOf rdf:resource="#City"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasContactInformation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="#hasContactInformation"/>
+    <owl:sameAs rdf:resource="#hasContactInformation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="#ContactInformation"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#hasContactInformation"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#oneOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#oneOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#oneOf"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#oneOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CromaGroupPvtLtd">
+    <owl:sameAs rdf:resource="#CromaGroupPvtLtd"/>
+    <CompanyUrl>croma.com</CompanyUrl>
+    <CommonName>Croma</CommonName>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CompanyLogo>croma.gif</CompanyLogo>
+    <LegalName>CromaGroupPvtLtd</LegalName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <hasStore rdf:resource="#cromaKalyanStore"/>
+    <hasStore rdf:resource="#cromaDombivliStore"/>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <rdf:type rdf:resource="#Company"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanDonProductDetail">
+    <ProductName>Don</ProductName>
+    <ProductDescription>mafia thriller</ProductDescription>
+    <ProductCategory>Movie</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cinemaxKalyanDonProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#TmingDetail">
+    <owl:sameAs rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#TmingDetail"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeBandraVictoryRunProductDetail">
+    <ProductName>VictoryRun</ProductName>
+    <ProductDescription>exclusive football gear</ProductDescription>
+    <ProductCategory>Sports</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#nikeBandraVictoryRunProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanDeception PointProductDetail">
+    <ProductName>Deception Point</ProductName>
+    <ProductDescription>story about secret iceberg</ProductDescription>
+    <ProductCategory>Book</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordNarimanDeception PointProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#FameAdlabsLtd">
+    <CompanyUrl>fame.com</CompanyUrl>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <LegalName>FameAdlabsLtd</LegalName>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <CommonName>Fame</CommonName>
+    <rdf:type rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasStore rdf:resource="#fameKalyanStore"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#FameAdlabsLtd"/>
+    <CompanyLogo>fame.gif</CompanyLogo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiContactInformation">
+    <owl:sameAs rdf:resource="#nikeVashiContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@nike.com</EmailId>
+    <PhoneNumber>022-59590000</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="#wasteBrand">
+    <Slogan>CrazyReaders</Slogan>
+    <Slogan>HangoutDen</Slogan>
+    <rdf:type rdf:resource="#Brand"/>
+    <Slogan>ReadingEnthusiast</Slogan>
+    <Slogan>LetsGoRoyal</Slogan>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <Slogan>Utility at its Best</Slogan>
+    <Slogan>Impeccable</Slogan>
+    <Slogan>Old is Gold</Slogan>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#wasteBrand"/>
+    <Slogan>Dare to compare</Slogan>
+    <BrandName>waste</BrandName>
+    <Slogan>100%pure</Slogan>
+  </rdf:Description>
+  <rdf:Description rdf:about="#musicworldNerulMinutes to MidnightProductDetail">
+    <owl:sameAs rdf:resource="#musicworldNerulMinutes to MidnightProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Music</ProductCategory>
+    <ProductDescription>most recent album by Linkin Park</ProductDescription>
+    <ProductName>Minutes to Midnight</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanDeception PointProductDetail">
+    <ProductName>Deception Point</ProductName>
+    <ProductDescription>story about secret iceberg</ProductDescription>
+    <ProductCategory>Book</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#landmarkKalyanDeception PointProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesKalyanLocation">
+    <Longitude>72.8249607</Longitude>
+    <Latitude>19.0024811</Latitude>
+    <State>Maharashtra</State>
+    <City>Kalyan</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesKalyanLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeBandraContactInformation">
+    <PhoneNumber>022-59590000</PhoneNumber>
+    <EmailId>admin@nike.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#nikeBandraContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ElectronicStore">
+    <rdf:type rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#ElectronicStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesKalyanContactInformation">
+    <PhoneNumber>022-22223333</PhoneNumber>
+    <EmailId>admin@vijaysales.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesKalyanContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#musicworldNerulLocation">
+    <owl:sameAs rdf:resource="#musicworldNerulLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Nerul</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0024811</Latitude>
+    <Longitude>72.8249607</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburContactInformation">
+    <PhoneNumber>022-50500000</PhoneNumber>
+    <EmailId>admin@planetm.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#planetMChemburContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedLong">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PayPal">
+    <rdf:type rdf:resource="#Payment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#PayPal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanLocation">
+    <owl:sameAs rdf:resource="#cromaKalyanLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Kalyan</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0024811</Latitude>
+    <Longitude>72.8249607</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Restriction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliTimingDetail">
+    <WeekEndHours>10-6</WeekEndHours>
+    <WeekDayHours>10-6</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cromaDombivliTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Slogan">
+    <rdfs:subPropertyOf rdf:resource="#Slogan"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#Slogan"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="#Slogan"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Brand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelTimingDetail">
+    <owl:sameAs rdf:resource="#cinemaxParelTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>9-12,3-6,6.30-9.30</WeekDayHours>
+    <WeekEndHours>9-12,3-6,6.30-9.30,10-1</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanTimingDetail">
+    <WeekEndHours>10-8</WeekEndHours>
+    <WeekDayHours>10-6</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#crosswordNarimanTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#WeekEndHours">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#WeekEndHours"/>
+    <owl:equivalentProperty rdf:resource="#WeekEndHours"/>
+    <owl:sameAs rdf:resource="#WeekEndHours"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#TmingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#time">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#member"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#member"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#member"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburLocation">
+    <Longitude>72.8249607</Longitude>
+    <Latitude>19.0024811</Latitude>
+    <State>Maharashtra</State>
+    <City>Chembur</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#planetMChemburLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#LegalName">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#LegalName"/>
+    <owl:sameAs rdf:resource="#LegalName"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#LegalName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliCompaq PresarioProductDetail">
+    <owl:sameAs rdf:resource="#cromaDombivliCompaq PresarioProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Electronic</ProductCategory>
+    <ProductDescription>Limited Edition Laptops</ProductDescription>
+    <ProductName>Compaq Presario</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#byte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#LandmarkPvtLtd">
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <owl:sameAs rdf:resource="#LandmarkPvtLtd"/>
+    <CommonName>Landmark</CommonName>
+    <LegalName>LandmarkPvtLtd</LegalName>
+    <CompanyUrl>landmark.com</CompanyUrl>
+    <rdf:type rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CompanyLogo>lm.gif</CompanyLogo>
+    <hasStore rdf:resource="#landmarkKalyanStore"/>
+    <hasBrand rdf:resource="#wasteBrand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PhoneNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#ContactInformation"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#PhoneNumber"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#PhoneNumber"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:equivalentProperty rdf:resource="#PhoneNumber"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanN900ProductDetail">
+    <owl:sameAs rdf:resource="#cromaKalyanN900ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Electronic</ProductCategory>
+    <ProductDescription>Smartphone by Nokia</ProductDescription>
+    <ProductName>Nokia E63</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#StoreDetail">
+    <owl:sameAs rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#StoreDetail"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitContactInformation">
+    <PhoneNumber>022-22002200</PhoneNumber>
+    <EmailId>admin@cword.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordInorbitContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyan5 Point SomeoneProductDetail">
+    <owl:sameAs rdf:resource="#landmarkKalyan5 Point SomeoneProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Book</ProductCategory>
+    <ProductDescription>story about IIT students</ProductDescription>
+    <ProductName>5 Point Someone</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanOne Night @ the Call CenterProductDetail">
+    <ProductName>One Night @ the Call Center</ProductName>
+    <ProductDescription>story about call centre employee</ProductDescription>
+    <ProductCategory>Book</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#landmarkKalyanOne Night @ the Call CenterProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburMinutes to MidnightProductDetail">
+    <owl:sameAs rdf:resource="#planetMChemburMinutes to MidnightProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Music</ProductCategory>
+    <ProductDescription>most recent album by Linkin Park</ProductDescription>
+    <ProductName>Minutes to Midnight</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitLocation">
+    <Longitude>72.8561644</Longitude>
+    <Latitude>19.0176147</Latitude>
+    <State>Maharashtra</State>
+    <City>Mumbai</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordInorbitLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#int">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMChemburStore">
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasContactInformation rdf:resource="#planetMChemburContactInformation"/>
+    <hasProduct rdf:resource="#planetMChemburReanimationProductDetail"/>
+    <hasProduct rdf:resource="#planetMChemburMeteoraProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasProduct rdf:resource="#planetMChemburMinutes to MidnightProductDetail"/>
+    <hasLocation rdf:resource="#planetMChemburLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <owl:sameAs rdf:resource="#planetMChemburStore"/>
+    <hasTiming rdf:resource="#planetMChemburTimingDetail"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#MusicStore</hasCategory>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <StoreName>planetMChembur</StoreName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasProduct">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#hasProduct"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:sameAs rdf:resource="#hasProduct"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#hasProduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#musicworldNerulStore">
+    <owl:sameAs rdf:resource="#musicworldNerulStore"/>
+    <hasTiming rdf:resource="#musicworldNerulTimingDetail"/>
+    <hasProduct rdf:resource="#musicworldNerulMinutes to MidnightProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <StoreName>musicworldNerul</StoreName>
+    <hasContactInformation rdf:resource="#musicworldNerulContactInformation"/>
+    <hasLocation rdf:resource="#musicworldNerulLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#MusicStore</hasCategory>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasProduct rdf:resource="#musicworldNerulMeteoraProductDetail"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanLocation">
+    <Longitude>72.8561644</Longitude>
+    <Latitude>19.0176147</Latitude>
+    <State>Maharashtra</State>
+    <City>Mumbai</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordNarimanLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliContactInformation">
+    <PhoneNumber>022-22227171</PhoneNumber>
+    <EmailId>admin@croma.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cromaDombivliContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CompanyUrl">
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="#CompanyUrl"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#CompanyUrl"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="#CompanyUrl"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanXperia X10ProductDetail">
+    <ProductName>Xperia X10</ProductName>
+    <ProductDescription>Smartphone by Sony Erricson</ProductDescription>
+    <ProductCategory>Electronic</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cromaKalyanXperia X10ProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#State">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#Location"/>
+    <owl:sameAs rdf:resource="#State"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="#State"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#State"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Card">
+    <rdf:type rdf:resource="#Payment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#Card"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliLocation">
+    <Longitude>72.8249607</Longitude>
+    <Latitude>19.0024811</Latitude>
+    <State>Maharashtra</State>
+    <City>Dombivli</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#cromaDombivliLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeBandraTimingDetail">
+    <WeekEndHours>10-8</WeekEndHours>
+    <WeekDayHours>10-6</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#nikeBandraTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#PlanetMLtd">
+    <LegalName>PlanetMLtd</LegalName>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <hasStore rdf:resource="#planetMBandraStore"/>
+    <CompanyUrl>planetm.com</CompanyUrl>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <CommonName>PlanetM</CommonName>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CompanyLogo>planetm.gif</CompanyLogo>
+    <hasStore rdf:resource="#planetMChemburStore"/>
+    <rdf:type rdf:resource="#Company"/>
+    <owl:sameAs rdf:resource="#PlanetMLtd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanDhobi GhatProductDetail">
+    <ProductName>Dhobi Ghat</ProductName>
+    <ProductDescription>an art movie</ProductDescription>
+    <ProductCategory>Movie</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#fameKalyanDhobi GhatProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#short">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanTimingDetail">
+    <owl:sameAs rdf:resource="#cromaKalyanTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>10-6</WeekDayHours>
+    <WeekEndHours>10-6</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanContactInformation">
+    <PhoneNumber>022-55005500</PhoneNumber>
+    <EmailId>admin@fame.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#fameKalyanContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaDombivliN900ProductDetail">
+    <owl:sameAs rdf:resource="#cromaDombivliN900ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Electronic</ProductCategory>
+    <ProductDescription>Smartphone by Nokia</ProductDescription>
+    <ProductName>Nokia E63</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesKalyanTimingDetail">
+    <WeekEndHours>10-7</WeekEndHours>
+    <WeekDayHours>10-7</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesKalyanTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#base64Binary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cromaKalyanSamsung Galaxy 5ProductDetail">
+    <owl:sameAs rdf:resource="#cromaKalyanSamsung Galaxy 5ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Electronic</ProductCategory>
+    <ProductDescription>Smartphone by Samsung</ProductDescription>
+    <ProductName>Samsung Galaxy 5</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Payment">
+    <owl:sameAs rdf:resource="#Payment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#Payment"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#Payment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanLocation">
+    <Longitude>72.8249607</Longitude>
+    <Latitude>19.0024811</Latitude>
+    <State>Maharashtra</State>
+    <City>Kalyan</City>
+    <rdf:type rdf:resource="#Location"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#fameKalyanLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanTimingDetail">
+    <owl:sameAs rdf:resource="#landmarkKalyanTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>10-6</WeekDayHours>
+    <WeekEndHours>10-8</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductDetail">
+    <owl:sameAs rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#ProductDetail"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMBandraReanimationProductDetail">
+    <owl:sameAs rdf:resource="#planetMBandraReanimationProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Music</ProductCategory>
+    <ProductDescription>Classic Remix of best selling songs </ProductDescription>
+    <ProductName>Reanimation</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#MusicStore">
+    <rdf:type rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#MusicStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesVashiTimingDetail">
+    <WeekEndHours>10-7</WeekEndHours>
+    <WeekDayHours>10-7</WeekDayHours>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesVashiTimingDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonPositiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#VijaySalesCorporation">
+    <LegalName>VijaySalesCorporation</LegalName>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <hasStore rdf:resource="#vijaysalesKalyanStore"/>
+    <CommonName>Vijay Sales</CommonName>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <CompanyUrl>vijaysales.com</CompanyUrl>
+    <rdf:type rdf:resource="#Company"/>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <owl:sameAs rdf:resource="#VijaySalesCorporation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <CompanyLogo>vijaysales.gif</CompanyLogo>
+    <hasStore rdf:resource="#vijaysalesVashiStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMBandraStore">
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasProduct rdf:resource="#planetMBandraReanimationProductDetail"/>
+    <StoreName>planetMBandra</StoreName>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore</hasCategory>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasTiming rdf:resource="#planetMBandraTimingDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasLocation rdf:resource="#planetMBandraLocation"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#planetMBandraStore"/>
+    <hasContactInformation rdf:resource="#planetMBandraContactInformation"/>
+    <hasProduct rdf:resource="#planetMBandraLinkinPark DiscographyProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onProperty">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Brand">
+    <owl:sameAs rdf:resource="#Brand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#Brand"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#Brand"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelContactInformation">
+    <owl:sameAs rdf:resource="#cinemaxParelContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@cinemax.com</EmailId>
+    <PhoneNumber>022-43004300</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordInorbitOne Night @ the Call CenterProductDetail">
+    <ProductName>One Night @ the Call Center</ProductName>
+    <ProductDescription>story about call centre employee</ProductDescription>
+    <ProductCategory>Book</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordInorbitOne Night @ the Call CenterProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#fameKalyanDonProductDetail">
+    <owl:sameAs rdf:resource="#fameKalyanDonProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Movie</ProductCategory>
+    <ProductDescription>mafia thriller</ProductDescription>
+    <ProductName>Don</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiStore">
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasLocation rdf:resource="#nikeVashiLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <StoreName>nikeVashi</StoreName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasProduct rdf:resource="#nikeVashiRaptorProductDetail"/>
+    <hasProduct rdf:resource="#nikeVashiVictoryRunProductDetail"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <hasProduct rdf:resource="#nikeVashiJabulaniProductDetail"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#SportsStore</hasCategory>
+    <hasContactInformation rdf:resource="#nikeVashiContactInformation"/>
+    <hasTiming rdf:resource="#nikeVashiTimingDetail"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <owl:sameAs rdf:resource="#nikeVashiStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanRang De BasantiProductDetail">
+    <owl:sameAs rdf:resource="#cinemaxKalyanRang De BasantiProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Movie</ProductCategory>
+    <ProductDescription>story against corruption</ProductDescription>
+    <ProductName>Rang De Basanti</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanStore">
+    <owl:sameAs rdf:resource="#crosswordNarimanStore"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <StoreName>crosswordNariman</StoreName>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasProduct rdf:resource="#crosswordNarimanDa Vinci CodeProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasTiming rdf:resource="#crosswordNarimanTimingDetail"/>
+    <hasProduct rdf:resource="#crosswordNarimanDeception PointProductDetail"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore</hasCategory>
+    <hasContactInformation rdf:resource="#crosswordNarimanContactInformation"/>
+    <hasLocation rdf:resource="#crosswordNarimanLocation"/>
+    <hasProduct rdf:resource="#crosswordNarimanAngels and DemonsProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelRang De BasantiProductDetail">
+    <owl:sameAs rdf:resource="#cinemaxParelRang De BasantiProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Movie</ProductCategory>
+    <ProductDescription>story against corruption</ProductDescription>
+    <ProductName>Rang De Basanti</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Longitude">
+    <rdfs:domain rdf:resource="#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:equivalentProperty rdf:resource="#Longitude"/>
+    <rdfs:subPropertyOf rdf:resource="#Longitude"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#Longitude"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#vijaysalesKalyanN900ProductDetail">
+    <ProductName>Nokia E63</ProductName>
+    <ProductDescription>Smartphone by Nokia</ProductDescription>
+    <ProductCategory>Electronic</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#vijaysalesKalyanN900ProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#OntologyProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanStore">
+    <hasProduct rdf:resource="#landmarkKalyanDeception PointProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasContactInformation rdf:resource="#landmarkKalyanContactInformation"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasTiming rdf:resource="#landmarkKalyanTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasProduct rdf:resource="#landmarkKalyanDa Vinci CodeProductDetail"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore</hasCategory>
+    <owl:sameAs rdf:resource="#landmarkKalyanStore"/>
+    <hasProduct rdf:resource="#landmarkKalyanOne Night @ the Call CenterProductDetail"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+    <hasProduct rdf:resource="#landmarkKalyan5 Point SomeoneProductDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasLocation rdf:resource="#landmarkKalyanLocation"/>
+    <StoreName>landmarkKalyan</StoreName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanStore">
+    <owl:sameAs rdf:resource="#cinemaxKalyanStore"/>
+    <hasProduct rdf:resource="#cinemaxKalyanDonProductDetail"/>
+    <hasProduct rdf:resource="#cinemaxKalyanLagaanProductDetail"/>
+    <hasProduct rdf:resource="#cinemaxKalyanRang De BasantiProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <hasTiming rdf:resource="#cinemaxKalyanTimingDetail"/>
+    <hasLocation rdf:resource="#cinemaxKalyanLocation"/>
+    <hasProduct rdf:resource="#cinemaxKalyanDhobi GhatProductDetail"/>
+    <hasContactInformation rdf:resource="#cinemaxKalyanContactInformation"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Theatre</hasCategory>
+    <StoreName>cinemaxKalyan</StoreName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="#StoreDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gMonth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gMonth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CrosswordPvtLtd">
+    <CommonName>Crossword</CommonName>
+    <LegalName>CrosswordPvtLtd</LegalName>
+    <CompanyLogo>quality.gif</CompanyLogo>
+    <owl:sameAs rdf:resource="#CrosswordPvtLtd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasStore rdf:resource="#crosswordNarimanStore"/>
+    <hasStore rdf:resource="#crosswordInorbitStore"/>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Company"/>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <CompanyUrl>cword.com</CompanyUrl>
+  </rdf:Description>
+  <rdf:Description rdf:about="#hasPaymentMethod">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#hasPaymentMethod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="#Payment"/>
+    <rdfs:subPropertyOf rdf:resource="#hasPaymentMethod"/>
+    <rdfs:domain rdf:resource="#StoreDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="#hasPaymentMethod"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanDa Vinci CodeProductDetail">
+    <ProductName>Da Vinci Code</ProductName>
+    <ProductDescription>Relevation about Christianity</ProductDescription>
+    <ProductCategory>Book</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#crosswordNarimanDa Vinci CodeProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanContactInformation">
+    <PhoneNumber>022-22002200</PhoneNumber>
+    <EmailId>admin@cword.com</EmailId>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#crosswordNarimanContactInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ProductDescription">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:equivalentProperty rdf:resource="#ProductDescription"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="#ProductDetail"/>
+    <rdfs:subPropertyOf rdf:resource="#ProductDescription"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#ProductDescription"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Cash">
+    <rdf:type rdf:resource="#Payment"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#Cash"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CinemaxPvtLtd">
+    <LegalName>CinemaxPvtLtd</LegalName>
+    <CompanyLogo>cinemax.gif</CompanyLogo>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <hasStore rdf:resource="#cinemaxKalyanStore"/>
+    <CommonName>Cinemax</CommonName>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#CinemaxPvtLtd"/>
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <hasStore rdf:resource="#cinemaxParelStore"/>
+    <CompanyUrl>cinamax.com</CompanyUrl>
+    <rdf:type rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#negativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#negativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#duration">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#landmarkKalyanLocation">
+    <owl:sameAs rdf:resource="#landmarkKalyanLocation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#Location"/>
+    <City>Kalyan</City>
+    <State>Maharashtra</State>
+    <Latitude>19.0176147</Latitude>
+    <Longitude>72.8561644</Longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gDay">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#gDay"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxKalyanContactInformation">
+    <owl:sameAs rdf:resource="#cinemaxKalyanContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@cinemax.com</EmailId>
+    <PhoneNumber>022-43004300</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Theatre">
+    <rdf:type rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#Theatre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#musicworldNerulContactInformation">
+    <owl:sameAs rdf:resource="#musicworldNerulContactInformation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ContactInformation"/>
+    <EmailId>admin@musicworld.com</EmailId>
+    <PhoneNumber>022-50507171</PhoneNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#nikeVashiTimingDetail">
+    <owl:sameAs rdf:resource="#nikeVashiTimingDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#TmingDetail"/>
+    <WeekDayHours>10-6</WeekDayHours>
+    <WeekEndHours>10-8</WeekEndHours>
+  </rdf:Description>
+  <rdf:Description rdf:about="#cinemaxParelStore">
+    <hasProduct rdf:resource="#cinemaxParelDonProductDetail"/>
+    <hasLocation rdf:resource="#cinemaxParelLocation"/>
+    <owl:sameAs rdf:resource="#cinemaxParelStore"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasProduct rdf:resource="#cinemaxParelDhobi GhatProductDetail"/>
+    <hasPaymentMethod>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card</hasPaymentMethod>
+    <DeliveryMethod>StorePickUp</DeliveryMethod>
+    <hasProduct rdf:resource="#cinemaxParelRang De BasantiProductDetail"/>
+    <hasTiming rdf:resource="#cinemaxParelTimingDetail"/>
+    <StoreName>cinemaxParel</StoreName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasContactInformation rdf:resource="#cinemaxParelContactInformation"/>
+    <hasCategory>http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Theatre</hasCategory>
+    <rdf:type rdf:resource="#StoreDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#NikeIndiaLtd">
+    <CompanyPolicy rdf:resource="#CompanyPolicy"/>
+    <owl:sameAs rdf:resource="#NikeIndiaLtd"/>
+    <LegalName>NikeIndiaLtd</LegalName>
+    <hasStore rdf:resource="#nikeVashiStore"/>
+    <CompanyUrl>nike.com</CompanyUrl>
+    <CompanyLogo>nike.gif</CompanyLogo>
+    <CommonName>Nike</CommonName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <hasBrand rdf:resource="#wasteBrand"/>
+    <rdf:type rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <hasStore rdf:resource="#nikeBandraStore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#crosswordNarimanAngels and DemonsProductDetail">
+    <owl:sameAs rdf:resource="#crosswordNarimanAngels and DemonsProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <ProductCategory>Book</ProductCategory>
+    <ProductDescription>story about illuminati revival</ProductDescription>
+    <ProductName>Angels and Demons</ProductName>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Company">
+    <owl:sameAs rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="#Company"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="#Company"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#imports">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#imports"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2002/07/owl#imports"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#imports"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#planetMBandraLinkinPark DiscographyProductDetail">
+    <ProductName>LinkinPark Discography</ProductName>
+    <ProductDescription>Entire LP Collection</ProductDescription>
+    <ProductCategory>Music</ProductCategory>
+    <rdf:type rdf:resource="#ProductDetail"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:sameAs rdf:resource="#planetMBandraLinkinPark DiscographyProductDetail"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Eatery">
+    <rdf:type rdf:resource="#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#Eatery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#CommonName">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentProperty rdf:resource="#CommonName"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:sameAs rdf:resource="#CommonName"/>
+    <rdfs:domain rdf:resource="#Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subPropertyOf rdf:resource="#CommonName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#boolean">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <owl:sameAs rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+</rdf:RDF>

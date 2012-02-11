@@ -1,0 +1,13 @@
+
+
+<dwr>
+  <allow>
+    <create creator="new" javascript="buddy">
+      <param name="class" value="inputdata.nothing"/>
+    </create>
+    <create creator="new" javascript="ashu">
+      <param name="class" value="inputdata.testing"/>
+    </create>
+   
+   </allow>
+ </dwr>

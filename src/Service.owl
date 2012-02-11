@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasBrand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasBrand">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Brand"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasCategory">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasContactInformation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasContactInformation">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ContactInformation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasLocation">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasPaymentMethod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasPaymentMethod">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Payment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasProduct -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasProduct">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDetail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasStore -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasStore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasTiming -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#hasTiming">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#TmingDetail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BrandName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BrandName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Brand"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#City -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#City">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CommonName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CommonName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CompanyLogo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CompanyLogo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CompanyPolicy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CompanyPolicy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CompanyUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#CompanyUrl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#DeliveryMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#DeliveryMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#EmailId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#EmailId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ContactInformation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Latitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#LegalName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#LegalName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Longitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#PhoneNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#PhoneNumber">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ContactInformation"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductCategory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductNumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Slogan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Slogan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Brand"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#State -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#State">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#WeekDayHours -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#WeekDayHours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#TmingDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#WeekEndHours -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#WeekEndHours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#TmingDetail"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Brand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ContactInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ContactInformation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Payment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Payment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDetail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ProductDetail"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#StoreDetail"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#TmingDetail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#TmingDetail"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#BookStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Card">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Payment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Cash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Payment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Eatery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Eatery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ElectronicStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#ElectronicStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#MusicStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#MusicStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#PayPal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#PayPal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Payment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#SportsStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#SportsStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Theatre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Theatre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2011/1/ServiceOntology.owl#Category"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1602) http://owlapi.sourceforge.net -->
+
